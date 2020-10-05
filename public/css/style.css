@@ -1,0 +1,85 @@
+/* @font-face {
+	font-family: 'DMSans';
+	src: url("../fonts/DMSans-Regular.ttf") format("truetype"); 
+  } */
+
+  /* @font-face {
+	font-family: DMSerif;
+	src: url(/public/fonts/DMSerifDisplay-Regular.ttf);
+  } */
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #2f473d;
+	color: #fffff3;
+	font-family: 'DM Sans';
+}
+h1, h2{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h3 {
+	margin-bottom: 24px;
+	overflow-wrap: break-word;
+	font-family: 'DM Serif Display';
+}
+
+a {
+	color: #fffff3;
+}
+
+
+/*header area*/
+.top-header {
+	background: #2f473d;
+	width: 100%;
+	margin-left: -48px;
+	/* position: fixed; */
+	/* top: 0px; */
+	/* width: 100%; */
+	/* z-index: 99999; */
+}
+
+.top-header img {
+	width: 250px;
+}
+
+
+.page {
+	background: #2f473d;
+}
+
+.footer {
+	/* position: absolute;
+	bottom: 48px; */
+	width: 100%;
+	margin-top: 64px;
+}
+
+.social img {
+	width: 48px;
+}
+
+.social .cocial.row {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.content {
+	margin-bottom: 36px;
+}
+
+.email {
+	margin-left: 4px;
+}
+
+.social.container,
+.footer .container,
+.top-header .container,
+.page .container {
+	max-width: 750px;
+}
