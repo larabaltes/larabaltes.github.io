@@ -31,30 +31,21 @@ a {
 	color: #fffff3;
 }
 
-
-/*header area*/
-.top-header {
-	background: #2f473d;
-	width: 100%;
-	margin-left: -48px;
-	/* position: fixed; */
-	/* top: 0px; */
-	/* width: 100%; */
-	/* z-index: 99999; */
-}
-
-.top-header img {
+.container .header-logo img {
 	width: 250px;
 }
 
+.header-logo {
+    justify-content: center;
+    display: flex;
+    margin-top: 200px
+}
 
 .page {
 	background: #2f473d;
 }
 
 .footer {
-	/* position: absolute;
-	bottom: 48px; */
 	width: 100%;
 	margin-top: 64px;
 }
@@ -63,10 +54,10 @@ a {
 	width: 48px;
 }
 
-.social .cocial.row {
+.social .social-row {
 	display: flex;
-	flex-direction: column;
-	justify-content: start;
+	flex-direction: row;
+    justify-content: center;
 }
 
 .content {
